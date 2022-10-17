@@ -1,0 +1,23 @@
+---
+title: "Homework-20"
+author: "Trent Meyer"
+date: "2022-10-17"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Introduction
+
+This is for testing the connection between RStudio, Git, and GitHub. We created a repo on GitHub, and then creating a project using version control here on RStudio.
+
+# Setting up
+```{r}
+rm(list = ls()) # clears the environment
+library(ggplot2)
+library(dplyr)
+library(here)
+```
+
